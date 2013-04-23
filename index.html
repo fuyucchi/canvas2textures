@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="visiblic, デザイン, UX, UI, ユーザー・インターフェイス, インターフェースデザイン, user experience, 情報アーキテクチャー, Information Architecture, iOS, フロントエンドエンジニア" />
+<meta name="description" content="visiblic - Idea Design visualizes the information in the increasing complexity world. Visualization is more interesting. Using 3D-motion graphics, [visiblic] to provide a new UX and intaraction." />
+
+
+<title>Canvasテスト</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+<link href="/css/base.css" rel="stylesheet" type="text/css" />
+
+
+<!--[if lt IE 9]>
+   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<![endif]–->
+<!--[if gte IE 9]><-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+</head>
+
+<body>
+
+<canvas id="abc" width="300" height="150">
+  あいうえお0123456789
+</canvas>
+
+
+
+
+
+</body>
+
+
+<script type="text/javascript">
+
+var canvas = document.getElementById('abc');
+var ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect (10, 10, 55, 50);
+ 
+        ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+        ctx.fillRect (30, 30, 55, 50);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19605574-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var p = 'script',d = document;
+    var ga = d.createElement(p); ga.type = 'text/java'+p; ga.async = true;
+    ga.src = 'http' + ('https:' == d.location.protocol ? 's://ssl' : '://www') + '.google-analytics.com/ga.js';
+    var s = d.getElementsByTagName(p)[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</html>
